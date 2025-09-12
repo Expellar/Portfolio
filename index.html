@@ -4,65 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bisma Harun - Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <span>
-        <a href="#About me">About me</a>
-        <a href="#Skills">Skills</a>
-        <a href="#Projects">Projects</a>
-        <a href="#Contact">Contact</a>
-    </span>
-    <hr><hr>
+    <header>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        <section class="Me">
+            <img src="Images/image.jpg" class="Me-img" alt="Profile photo">
+            <div class="Me-info">
+                <h1>Bisma Harun</h1>
+                <h2>Web & Game Developer</h2>
+                <p>Welcome to my portfolio website. Here you can find information about me, my skills, my projects, and how to get in touch.</p>
+            </div>
+        </section>
 
-    <h1>Welcome to my Portfolio</h1>
-    <hr><hr>
-    <div style="display: flex; gap: 20px;">
-        <div>
-            <img src="Images/image.jpg" height="300px" width="250px" alt="Profile photo">
-            <p><b>Bisma Harun</b></p>
-        </div>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                Hi! My name is <b>Bisma Harun</b>. I am currently learning web development and exploring different programming languages.
+                I also have an interest in game development and have tried creating projects using <b>Godot Engine</b> and <b>Java</b>.<br><br>
+                Through this portfolio, I want to showcase my journey in programming and the projects that I have worked on.
+                I enjoy exploring new technologies and I’m always excited to keep improving my skills.
+            </p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li><b>Web Development:</b> HTML, CSS, JavaScript</li>
+                <li><b>Programming Languages:</b> C++, Python, Kotlin, Java</li>
+                <li><b>Game Development:</b> Godot Engine, Java</li>
+                <li><b>Version Control:</b> Git & GitHub</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul class="projects-list">
+                <li><a href="https://github.com/SSSalvan/O.M.G.A.M.M.A.git"><b>Project 1:</b> Game Development using Godot Engine - O.M.G.A.M.M.A</a></li>
+                <li><a href="https://github.com/Legocrocs/GameProject-1"><b>Project 2:</b> Game Development using Java - Sensen's Milk Adventure</a></li>
+                <li><a href="https://github.com/Expellar/GrafikaKomputer-UAS-WebGL-Sorting-Algo-Simulation-"><b>Project 3:</b> WebGL Simulation of Sorting Algorithms</a></li>
+                <li><a href="https://github.com/Expellar/Final-Project-DAA"><b>Project 4:</b> Data Structure and Algorithm Visualization using CopelliaSim</a></li>
+                <li><a href="https://github.com/Expellar/GameDev-Punto-using-HTML-and-JS-Optimizing-how-AI-can-make-the-best-moves-to-win"><b>Project 5:</b> Punto Game using HTML, CSS, and JavaScript (<b>IN PROGRESS</b>)</a></li>
+                <li><a href="https://expellar.github.io/JustFlexboxbro/"><b>Project 6:</b> Flexbox Exercise</a></li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <div class="contact-info">
+                <p>Email: bismaharun.bnkl@gmail.com</p>
+                <p>Phone: 082111084935</p>
+            </div>
+        </section>
     </div>
-    <p>Welcome to my portfolio website. Here you can find information about me, my skills, my projects, and how to get in touch.</p>
-
-    <hr><hr>
-    <h2 id="About me">About me</h2>
-    <p>
-        Hi! My name is <b>Bisma Harun</b>. I am currently learning web development and exploring different programming languages.  
-        I also have an interest in game development and have tried creating projects using <b>Godot Engine</b> and <b>Java</b>. <br><br>
-        Through this portfolio, I want to showcase my journey in programming and the projects that I have worked on. 
-        I enjoy exploring new technologies and I’m always excited to keep improving my skills. 
-    </p>
-    <br><br><br><br><br><br><br>
-    <hr><hr>
-
-    <h2 id="Skills">Skills</h2>
-    <ul>
-        <li><b>Web Development:</b> HTML, CSS, JavaScript</li>
-        <li><b>Programming Languages:</b> C++, Python, Kotlin, Java</li>
-        <li><b>Game Development:</b> Godot Engine, Java</li>
-        <li><b>Version Control:</b> Git & GitHub</li>
-    </ul>
-    <br><br><br><br><br><br><br>
-    <hr><hr>
-
-    <h2 id="Projects">Projects</h2>
-    <ul>
-        <li><a href="https://github.com/SSSalvan/O.M.G.A.M.M.A.git">Project 1: Game Development using Godot Engine - O.M.G.A.M.M.A</a></li>
-        <li><a href="https://github.com/Legocrocs/GameProject-1">Project 2: Game Development using Java - Sensen's Milk Adventure</a></li>
-        <li><a href="https://github.com/Expellar/GrafikaKomputer-UAS-WebGL-Sorting-Algo-Simulation-"> Project 3: WebGL Simulation of Sorting Algorithms</a></li>
-        <li><a href="https://github.com/Expellar/Final-Project-DAA">Project 4: Data Structure and Algorithm Visualization using CopelliaSim</a></li>
-        <li><a href="https://github.com/Expellar/GameDev-Punto-using-HTML-and-JS-Optimizing-how-AI-can-make-the-best-moves-to-win">Project 5: Punto Game using HTML, CSS, and JavaScript (<b>IN PROGRESS</b>)</a></li>
-        <li><a href="https://expellar.github.io/JustFlexboxbro/">Proejct 6: Flexbox Exercise</a></li>
-    </ul>
-    <br><br><br><br><br><br><br>
-    <hr><hr>
-
-    <h2 id="Contact">Contact</h2>
-    <p>Email: bismaharun.bnkl@gmail.com</p>
-    <p>Phone: 082111084935</p>
-    <br><br><br><br><br><br><br>
-    <hr><hr>
-
+    <footer>
+        &copy; 2025 Bisma Harun
+    </footer>
 </body>
 </html>
